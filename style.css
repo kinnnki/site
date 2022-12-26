@@ -1,0 +1,279 @@
+body {
+	margin: 0;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+*,
+*: before,
+*: after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin; 0 0 10px;
+}
+
+
+.title {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+	color: #424242;
+	text-decoration: none;
+	opacity: .75;
+	
+	transition: opacity .1s linear;
+	text-align: center;
+}
+
+
+/* Container */
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	
+}
+
+
+
+/* Header */
+
+.header {
+	width: 100%;
+	height: 100px;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #515369;
+	padding: 35px 0;
+	align-items: center;
+}
+
+/* Nav */
+
+.nav {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: flex;
+}
+
+.nav__link {
+	margin-left: 100px;
+	
+	color: #fff;
+	text-decoration: none;
+	opacity: .75;
+	
+	transition: opacity .1s linear;
+}
+
+.nav__link:first-child {
+	margin-left: 0;
+}
+
+
+.nav__link:hover {
+	opacity: 1;
+}
+
+
+/* Intro */
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 850px;
+	background-image: url(intro.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+}
+
+.intro__inner {
+	width: 100%;
+	max-width: 970px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.intro__title {
+	margin: 0;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 65px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+
+.intro__subtitle {
+	font-size: 22px;
+	color: #fff;
+	line-height: 1,5;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+/* Button */
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 14px 40px;
+	
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	transition: background .1s linear;
+}
+
+.btn--red {
+	background-color: #e84545;
+}
+
+.btn--red:hover {
+	background-color: #dd3434;
+}
+
+/* Features */
+.features {
+	display: flex;
+	margin: 100px 0;
+}
+
+.features__item {
+	width: 33%;
+	padding: 0 40px;
+	margin: 25px 0;
+	
+	text-align: center;
+}
+
+.features__title {
+	margin-bottom: 15px;
+	
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #2d3033;
+	font-weight: 700;
+	
+}
+
+.features__text {
+	font-size: 14px;
+	color: #6c7279;
+	
+	line-height: 1.5;
+}
+
+/* Cards */
+
+.allcards {
+	display: flex;
+    align-items: space-between;
+	margin: 0 auto;
+	justify-content: space-between;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+
+.cards {
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+    color: #000000;
+	background: #fff;
+	font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+	text-decoration: none;
+	font-weight: 700;
+	flex-wrap: nowrap;
+}
+
+.card1__inner {
+	border-radius: 2px;
+    border: 1px solid #d3d3d3;
+    margin: 5px;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card1__col {
+	font-size: 18px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+	display: block;
+	padding-top: 15px;
+    min-height: 130px;
+    text-align: center;
+	background-color: transparent;
+}
+
+.card1__col2 {
+	margin-top: 10px;
+    display: flex;
+	flex-wrap: nowrap;
+	box-sizing: border-box;
+}
+
+.cash {
+	width: 130px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 0 0;
+	padding-left: 26px;
+	background-image: url("rublbudet.PNG");
+}
+
+.credit {
+	padding-left: 26px;
+	box-sizing: border-box;
+	display: block;
+	background-image: url("creditcard.png");
+	width: 130px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 0 0;
+	padding-left: 26px;
+}
